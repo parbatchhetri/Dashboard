@@ -3,15 +3,15 @@ import {BsThreeDotsVertical} from "react-icons/bs"
 import "./Down.css";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { RiArrowUpSLine ,} from "react-icons/ri";
-import {BiChevronDown} from "react-icons/bi"
+// import { RiArrowUpSLine ,} from "react-icons/ri";
+// import {BiChevronDown} from "react-icons/bi"
 
 const Down = () => {
   return (
     
     <div className="sanobox">
     <div className="sabaidiv">
-    <span className="total"> Total Revenue</span>
+    <p className="total"> Total Revenue</p>
     <BsThreeDotsVertical className="thoplo"/>
    
   </div>
@@ -25,8 +25,9 @@ const Down = () => {
     <p className='essay'>Previous transactions processing. Last payments may not be included. </p>
     <div className='talamaal'>
         <div className='lastpart'>
-            <span className='target'>Target</span>
-            <span className='week'> Last week</span>
+            <h1 className='target'>Target</h1>
+            <h1 className='target'> Last week</h1>
+            <h1 className='target'>Last month </h1>
           
         </div>
 
