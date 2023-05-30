@@ -1,0 +1,11 @@
+.App{
+    display: flex;
+}
+.side{
+    flex: none;
+
+}
+.right{
+    flex-grow: 1;
+    
+}

@@ -1,0 +1,56 @@
+
+.sanobox{
+    width: 300px;
+    height: 350px;
+    border-radius: 4px;
+    background-color: rgb(254, 254, 254);
+    /* margin:20px; */
+    padding: 10px;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    text-align: center;
+    
+}
+.sabaidiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.total{
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.thoplo{
+    margin: 7px;
+    color: grey;
+}
+.dharko2{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 95px;
+
+   }
+   
+   .quote{
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+    /* margin-left:65px; */
+   }
+   .maal2{
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+ margin-top: 0px;
+ margin-bottom: 0px;
+   }
+   .essay{
+    font-size: 12px;
+    color: grey;
+   
+   }
+   
