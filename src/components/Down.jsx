@@ -3,8 +3,8 @@ import {BsThreeDotsVertical} from "react-icons/bs"
 import "./Down.css";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-// import { RiArrowUpSLine ,} from "react-icons/ri";
-// import {BiChevronDown} from "react-icons/bi"
+import { RiArrowUpSLine ,} from "react-icons/ri";
+import {BiChevronDown} from "react-icons/bi"
 
 const Down = () => {
   return (
@@ -28,8 +28,26 @@ const Down = () => {
             <h1 className='target'>Target</h1>
             <h1 className='target'> Last week</h1>
             <h1 className='target'>Last month </h1>
+          </div>
+         
+            <div className='love'>
+            
+            <div className='vale1'>
+            <BiChevronDown className='down'></BiChevronDown>
+            <p className='bhaag1'>$12.4k</p>
+            </div>
+            <div className='vale2'>
+            <RiArrowUpSLine className='down'></RiArrowUpSLine>
+            <p className='bhaag2'>$12.4k</p>
+            </div>
+            <div className='vale3'>
+            <BiChevronDown className='down'></BiChevronDown>
+            <p className='bhaag3'>$12.4k</p>
+            </div>
+
+            </div>
+
           
-        </div>
 
     </div>
   </div>

@@ -1,7 +1,7 @@
 
 .sanobox{
     width: 300px;
-    height: 370px;
+    height: 390px;
     border-radius: 4px;
     background-color: rgb(254, 254, 254);
     margin:15px;
@@ -56,11 +56,12 @@
    .lastpart{
     display: flex;
     gap: 50px;
-    margin-left: 20px;
+    margin-left: 0px;
     align-items: center;
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    /* background-color: blue; */
    }
    .target{
     font-size: 12px;
@@ -68,3 +69,32 @@
     color: grey;
    }
    
+.vale1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     font-size: 14px;
+    
+     color: rgb(234, 61, 61);
+     }
+     .vale2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+         font-size: 14px;
+         
+         color: rgb(64, 193, 64);
+         }
+         .vale3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+             font-size: 14px;
+             
+             color: #cb5454;
+             }
+             .love{
+                display: flex;
+                gap: 50px;
+                padding-left: 10px;
+             }
